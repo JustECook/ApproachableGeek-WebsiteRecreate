@@ -17,26 +17,19 @@
             position: fixed;
             display: flex;
             flex-direction: column;
-            background: rgb(10, 119, 221);
-            height: 200px;
+            background: blue;
+            height: 175px;
             width: 100%;
             border-bottom: 2px black solid;
             z-index: 10;
             text-align: center;
         }
 
-        .logo {
-            height: 70px;
-            width: 100px;
-            margin-left: 45%;
-            padding: 20px;
-        }
-
         .tagLine-sect {
             position: relative;
             display: flex;
             justify-content: center;
-            background: linear-gradient(rgb(10, 119, 221), rgb(2, 43, 82));
+            background: linear-gradient(blue, rgb(12, 12, 94));
             height: 450px;
             width: 100%;
             top: 150px;
@@ -44,17 +37,14 @@
             padding: 100px;
             width: 85vw;
         }
-       
+
         button {
-            padding: 20px;
-            margin-left: 5px;
-            margin-right: 5px;
+            padding: 10px;
             border-bottom-left-radius: 25px;
             border-bottom-right-radius: 25px;
             border-top-left-radius: 25px;
             border-top-right-radius: 25px;
             border: white;
-            font-weight: bold;
         }
 
         .white {
@@ -65,12 +55,11 @@
 
         .orange {
             color: white;
-            background: rgb(241, 101, 7);
+            background: orange;
         }
 
         .mission-statement {
             width: 400px;
-            font-style: italic;
         }
         .subMission-statement {
             width: 300px;
@@ -116,7 +105,7 @@
 
 <body>
     <div class = "navBar">
-        <img class = "logo" src = "images/logo.webp">
+        <h1>Logo</h1>
         <div class = "btn-container">
             <button class = "white btn">HOME</button>
             <button class = "white btn">SERVICES</button>
