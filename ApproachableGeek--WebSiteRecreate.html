@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navBar {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            background: blue;
+            height: 175px;
+            width: 100%;
+            border-bottom: 2px black solid;
+            z-index: 10;
+            text-align: center;
+        }
+
+        .tagLine-sect {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(blue, rgb(12, 12, 94));
+            height: 450px;
+            width: 100%;
+            top: 150px;
+            color: white;
+            padding: 100px;
+            width: 85vw;
+        }
+
+        button {
+            padding: 10px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border: white;
+        }
+
+        .white {
+           
+            color: blue;
+            background: white;
+        }
+
+        .orange {
+            color: white;
+            background: orange;
+        }
+
+        .mission-statement {
+            width: 400px;
+        }
+        .subMission-statement {
+            width: 300px;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.5em;
+        }
+
+        .projects-sect {
+            height: 450px;
+            width: 100%;
+            top: 100px;
+            padding: 10px;
+            width: 85vw; 
+            margin-left: 10%;
+        }
+        .projects-img {
+            position: relative;
+            top: 5%;
+            display: flex;
+            justify-content: center;
+        }
+        .projects-text-h1 {
+            text-align: center;
+        }
+        .projects-text-p {
+            position: relative;
+            width: 350px;
+            left: 15%;
+            
+        }
+    </style>
+
+<body>
+    <div class = "navBar">
+        <h1>Logo</h1>
+        <div class = "btn-container">
+            <button class = "white btn">HOME</button>
+            <button class = "white btn">SERVICES</button>
+            <button class = "white btn">PORTFOLIO</button>
+            <button class = "white btn">ABOUT</button>
+            <button class = "white btn">BLOG</button>
+            <button class = "white btn">CONTACT</button>
+            <button class = "orange btn">LET'S TALK</button>
+        </div>
+    </div>   
+    <div class = "tagLine-sect">
+        <div class = "tagline-text">
+            <h1 class = "mission-statement">WE BUILD APPS HUMANS LOVE TO USE</h1>
+            <p class = "subMission-statement">We're your tech friends who help translate your customer's desires and business motives into well designed software.</p>
+            <br><br><br>
+            <button class = "orange btn">GET A FREE QUOTE</button>
+        </div>
+        <div class = "tagline-img">
+            <img src = "images/people.png">
+        </div>
+    </div>
+    <div class = "projects-sect">
+        <div class = "projects-text">
+            <br><br><br><br><br><br><br><br>
+            <h2 class = "projects-text-h1">OUR PROJECTS</h2>
+            <br><br><br>
+            <div class = "projects-img">
+                <img src = "images/projects.webp">
+            </div>
+            <br><br><br>
+            <p class = "projects-text-p">From construction software to dating apps, we've successfully completed projects in many industries.</p>
+        </div>
+    </div>
+   
+</body>
+</html>
