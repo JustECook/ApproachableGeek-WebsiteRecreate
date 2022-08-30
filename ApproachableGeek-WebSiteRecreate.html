@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .section {
+            width: 100vw;
+            height: 100vh;
+          
+        }
+        .section-short {
+            width: 100vw;
+            height: 20vh;
+        }
+
+        .section-projects {
+            width: 100vw;
+            height: 80vh;
+        }
+        .section-title {
+            width: 100vw;
+            height: 60vh;
+        }
+
+        .blue-background {
+            background: blue;
+            color: white;
+        }
+        .blue-fade-background {
+            background: linear-gradient(blue, rgb(11, 11, 135));
+            color: white;
+        }
+
+        .navBar {
+            position: fixed;
+            padding-top: 10px;
+            border-bottom: 2px solid black;
+            z-index: 10;
+        }
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-img {
+            width: 125px;
+            height: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        button {
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 20px;
+            color: blue;
+            font-weight: bold;
+            background: white;
+            border: white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        button:hover {
+            color: orange;
+        }
+        .orange-btn {
+            background: orange;
+            color: white;
+        }
+        .orange-btn:hover {
+            background: rgb(221, 144, 2);
+            color: white;
+        }
+        
+        .h1-textbox {
+            margin-left: 20vw;
+            width: 375px;
+            font-size: 1.5em;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .people-img {
+            margin-top: -25vh;
+            margin-left: 50vw;
+        }
+        .projects-img {
+            width: 700px;
+            height: auto;
+        }
+        .p-textbox {
+            margin-top: -25vh;
+            margin-left: 20vw;
+            width: 275px;
+            font-weight: bold;
+            font-size: 1.25em;
+        }
+        .p-textbox-projects {
+            
+            margin-left: 20vw;
+            width: 300px;
+            font-weight: bold;
+            font-size: 1.55em;
+        }
+
+        .title {
+           padding-top: 20vh;
+        }
+
+        .left-top-margin {
+            margin-left: 20vw;
+            margin-top: 5vh;
+        }
+        .rightside {
+            margin-right: 10vw;
+        }
+
+        .italicized {
+            font-style: italic;
+        }
+
+        .grid-centered {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 40px;
+            justify-items: center;
+           
+        }
+
+        .testimonial-box {
+            height: 200px;
+            width: 250px;
+            background: white;
+            border: white;
+            border-radius: 40px;
+            margin: 5px;
+        }
+
+        .testimonial-conatainer {
+            width: 20vw;
+        }
+        .testimonials-img {
+            width: 600px;
+            height: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "section-short blue-background navBar">
+        <div class = "centered">
+            <img class = "logo-img" src = "images/logo.webp">
+        </div>
+        <div class = "centered">
+            <button>HOME</button>
+            <button>SERVICES</button>
+            <button>PORTFOLIO</button>
+            <button>ABOUT</button>
+            <button>BLOG</button>
+            <button>CONTACT</button>
+            <button class = "orange-btn">LET'S TALK</button>
+        </div>
+    </div>
+
+
+
+    <div class = "section-title blue-fade-background title">
+        <div class = "h1-textbox">
+            <h1>WE BUILD APPS HUMANS LOVE TO USE</h1>
+        </div>
+        <img class = "people-img" src = "images/people.webp">
+        <div class = "p-textbox">
+            <p>Come work with us to see how we do things. We're friendly, fast, and work to meet your needs. Let's get working together.</p>
+        </div>
+        <button class = "orange-btn  left-top-margin">LET'S TALK</button>
+    </div>
+
+
+
+    <div class = "section-projects projects">
+        <h1 class = "centered italicized">Our Projects</h1>
+        <div class = "centered">
+            <div class = "centered">
+                <img class = "projects-img" src = "images/projects.webp">
+            </div>
+        </div>
+        <div class = "p-textbox-projects">
+            <p>From construction software to dating apps, we've successfully completed projects in many industries.</p>
+        </div>
+        
+    </div>
+    
+    <div class = "section blue-fade-background testimonials">
+        <div class = "centered">
+            <h1 class = "italicized">TESTIMONIALS</h1>
+        </div>
+        <div class = "testimonial-container centered">
+           <img class = "testimonials-img" src = "images/testimonials.webp">
+        </div>
+    </div>
+        
+    <div class = "section contact">
+        <h1 class = "centered italicized">SERVICES WE PROVIDE</h1>
+    </div>
+</body>
+</html>
